@@ -29,7 +29,9 @@ You can select a facility by scanning a QR code.
 * Scan a QR-Code
 * The map will navigate to the facility and open the info window where you can subscribe to or unsubscribe from updates
 
-The QR-Code may be any string ending with `#<facilityEquipmentnumber>`. For instance, the following image encodes the URL `http://www.aufzugswaechter.org/#10213788` and will take you to the facility with the equipment number `10213788` (`Armdstadt Hbf: Aufzug zu Bstg 2/3`).
+The QR-Code may be any string ending with `#<facilityEquipmentnumber>`.
+
+For instance, the following image encodes the URL `http://www.aufzugswaechter.org/#10213788` and will take you to the facility with the equipment number `10213788` (`Armdstadt Hbf: Aufzug zu Bstg 2/3`).
 
 ![http://www.aufzugswaechter.org/#10213788](media/10213788.png)
 
