@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapActivity">
+    <item
+        android:id="@+id/menu_item_scan_facility_qr_code"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_qrcode_scan_black_36dp"
+        android:title="Scan Facility QR Code"
+        app:showAsAction="ifRoom" />
+    <group
+        android:id="@+id/menu_item_subscriptions"
+        android:orderInCategory="100"
+        android:title="Subscriptions"
+        app:showAsAction="never">
+        <item
+            android:id="@+id/menu_item_subscribe_to_all_updates"
+            android:title="@string/subscribe_to_all_updates"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/menu_item_unsubscribe_from_all_updates"
+            android:title="@string/unsubscribe_from_all_updates"
+            app:showAsAction="never" />
+    </group>
+
+</menu>

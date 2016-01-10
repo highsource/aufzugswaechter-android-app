@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Aufzugswächter</string>
+    <string name="title_activity_map">Aufzugswächter</string>
+    <string name="gcm_send_message">Token retrieved and sent to server! You can now use gcmsender to
+        send downstream messages to this app.</string>
+    <string name="registering_message">Generating InstanceID token...</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server or subscribing to the PubSub topic. Please try
+        running the sample again.</string>
+    <string name="gcm_defaultSenderId">656333750169</string>
+    <string name="facilities_topic">/topics/facilities</string>
+    <string name="facility_topic_format">/topics/facility-{0,number,#}</string>
+    <string name="api_url">http://api.aufzugswaechter.org/facilities</string>
+    <string name="notification_content_text_format">{2} is now {3}</string>
+    <string name="subscribe_to_all_updates">Subscribe to all updates</string>
+    <string name="unsubscribe_from_all_updates">Unsubscribe from all updates</string>
+
+</resources>
